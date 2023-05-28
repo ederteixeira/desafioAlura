@@ -1,0 +1,170 @@
+* {
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+header {
+    background-color: #333A57;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    height: 100px;    
+}
+header h1 {
+    background-color: #333A57;
+    color: #ccc;
+    text-align: center;
+    font-size: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.logo {    
+    border-radius: 100px;
+    margin-left: 100px; 
+    margin-top: 15px;
+    width: 45px;
+    height: 45px;
+}
+
+main {
+   
+    display: grid;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+
+main p {
+    padding: 0 0 0 0;
+    align-self: self-start;
+    font-size: small;
+}
+
+.area-botoes {
+    display: flex;
+    height: 100px;
+}
+
+.encriptadores {
+    display: flex;
+}
+
+.text-area {
+    background-color: #d8dFe8;
+    border: 1px solid;
+    color: #021f91;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 100px;
+    text-transform: lowercase;
+    border-radius: 10px;
+    margin-bottom: 0;
+
+}
+
+::placeholder { 
+    color: #333A57;
+}  
+
+.text-area:focus {
+    outline: none;        
+    }
+.mensagem {
+    background-color: #d8dFe8;
+    border: 1px solid;
+    color: #333A57;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 50px;
+    margin-right: 100px;
+    text-transform: lowercase;
+    border-radius: 10px;
+}    
+
+.mensagem:focus {
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+}
+
+.btn-desencriptar {
+    background: #d8dFe8;
+    border: 1px solid #333A57;
+    border-radius: 24px;
+    color: #333A57;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background: #333A57;
+    border: 1px solid #333A57;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-copiar {
+    background: #333A57;
+    border: 1px solid #333A57;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+.informacao {
+    color: #495057;
+    font-size: 18px;
+    border: #495057;
+    height: 50px;
+}
+
+.informacao p {
+    font-size: 18px;
+    padding-left: 50px;
+    color: black;
+    font-style: italic;
+}
+
+.image-footer {
+	position: relative;
+	align-content: center;
+	width: 100px;
+	height: 100px;
+	margin: 0 0 0 ;
+	border-radius: 35px;
+}
+label {
+    display: flexbox;
+    position: relative;
+}
+
+footer {
+    background-color: #333A57;
+    display: block;
+    text-align: center;
+    padding-top: 90px;
+    height: 70px; 
+}
+
+footer p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    background-color: #333A57;
+    color: #ccc;
+    font-size: 20px;
+}
